@@ -5,7 +5,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<ListScreen />} />
+        <Route path="/test-app" element={<ListScreen />} />
         <Route path="/showdetails/:id" element={<ShowDetails />} />
       </Routes>
     </Router>
